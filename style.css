@@ -1,0 +1,106 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    min-height: 100vh;
+}
+
+.container {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(/Images/edited.png);
+    background-position: center center;
+    background-size: 100% 100%;
+    font-family: sans-serif;
+    height: 100vh;
+}
+
+.form-container {
+    background: rgba(255,255,255,0.5);
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px);
+    border: none;
+    box-shadow: 0px 0px 0px;
+    width: 27%;
+    height: 500px;
+    border-radius: 10px;
+    margin: 0 auto;
+}
+
+.name-app {
+    font-size: 21px;
+    color: blueviolet;
+    margin-bottom: 20px;
+}
+
+.username {
+    margin-top: 5px;
+    width: 60%;
+    height: 40px;
+    border: none;
+    border-bottom: 1px blueviolet solid;
+    background: none;
+}
+
+.username:focus {
+    outline: none;
+    border-bottom: 2px solid blueviolet;
+}
+
+
+.password {
+    margin-top: 30px;
+    width: 60%;
+    height: 30px;
+    border: none;
+    border-bottom: 1px blueviolet solid;
+    background: none
+}
+
+.password:focus {
+    outline: none;
+    border-bottom: 2px solid blueviolet;
+}
+
+.login-button {
+    margin-top: 30px;
+    width: 60%;
+    height: 30px;
+    background-color: blueviolet;
+    color: white;
+    border: none;
+    border-radius: 4px;
+}
+
+.form-container {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.kin-logo {
+    width: 70%;
+    margin: 0px auto 20px;
+}
+
+.username::placeholder, .password::placeholder{
+    color: white;
+}
+
+@media(max-width: 575px) { 
+    .username, .password, .login-button{
+        width: 80%;
+    }
+    .form-container{
+        width: 80%;
+        height: 50%;
+    }
+    .kin-logo{
+        width: 50%;
+    }
+}

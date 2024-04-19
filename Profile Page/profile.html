@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="profile-style.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
+    />
+    <title>Profile</title>
+  </head>
+  <body>
+    <div class="header">
+      <h1>User Profile</h1>
+      <div class="profile-info">
+        <p class="basic-info">Basic Info</p>
+        <div class="profile-pic">
+          <img class="my-profile" src="../Images/unnamed.jpg" alt="profile" />
+          <div class="profile-data">
+            <p class="users-name">Erion Kajtazi</p>
+            <p class="users-id" id="users-id">ID: 01</p>
+            <button class="reset-password">
+              <span style="font-size: 20px" class="material-symbols-outlined">
+                lock </span
+              >Reset Password
+            </button>
+          </div>
+        </div>
+        <div class="profile-form">
+          <form>
+            <label for="firstname" class="fname" id="fname">Firstname:</label>
+            <input
+              type="text"
+              class="fname"
+              id="fname"
+              placeholder="firstname"
+            /><br />
+            <label for="departament" class="departament" id="departament"
+              >Departament:</label
+            >
+            <select
+              name="Position"
+              class="position"
+              id="position"
+              form="position"
+            >
+              <option value="Front-End Developer">
+                Connective Digital Services(CDS)
+              </option>
+              <option value="Back-End Developer"></option>
+              <option value="iOS Developer"></option>
+              <option value="Java Developer"></option>
+              <option value="IT Support"></option>
+              <option value="DevOps"></option>
+            </select>
+            <label for="position" class="position" id="position"
+              >Position:</label
+            >
+            <select
+              name="Position"
+              class="position"
+              id="position"
+              form="position"
+            >
+              <option value="Front-End Developer">Front-End Developer</option>
+              <option value="Back-End Developer">Back-End Developer</option>
+              <option value="iOS Developer">iOS Developer</option>
+              <option value="Java Developer">Java Developer</option>
+              <option value="IT Support">IT Support</option>
+              <option value="DevOps">DevOps</option>
+            </select>
+            <label for="lastname" class="lname" id="lname">Lastname:</label>
+            <input
+              type="text"
+              class="lname"
+              id="lname"
+              placeholder="Lastname"
+            />
+            <label for="hired-date" class="hired-date" id="hired-date"
+              >Hired Date:</label
+            >
+            <input type="date" class="hired-date" id="hired-date" />
+            <label for="birth-date" class="birth-date" id="birth-date"
+              >Birth Date:</label
+            >
+            <input type="date" class="birth-date" id="birth-date" />
+          </form>
+        </div>
+      </div>
+    </div>
+
+    <br />
+
+    <div class="card-container">
+      <div class="card">
+        <div class="card-title"><h1>Contacts</h1></div>
+        <hr />
+        <h1>test</h1>
+        <h1>test</h1>
+        <h1>test</h1>
+        <h1>test</h1>
+        <h1>test</h1>
+      </div>
+
+      <div class="card">
+        <div class="card-title"><h1>Contacts</h1></div>
+        <hr />
+        <h1>test</h1>
+        <h1>test</h1>
+        <h1>test</h1>
+        <h1>test</h1>
+        <h1>test</h1>
+      </div>
+    </div>
+  </body>
+  <script src="script.js"></script>
+</html>
