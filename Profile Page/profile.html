@@ -29,7 +29,7 @@
         </div>
         <div class="profile-form">
           <form>
-            <label for="firstname" class="fname" id="fname">Firstname:</label>
+            <label for="firstname" class="fname" id="fname">Firstname:</label><br>
             <input
               type="text"
               class="fname"
@@ -37,15 +37,15 @@
               placeholder="firstname"
             /><br />
             <label for="departament" class="departament" id="departament"
-              >Departament:</label
-            >
+              >Departament:</label><br>
             <select
-              name="Position"
-              class="position"
-              id="position"
-              form="position"
+              name="departament"
+              class="departament"
+              id="departament"
+              form="departament"
             >
-              <option value="Front-End Developer">
+              <option value="Front-End Developer"></option>
+              <option value="IT-Support">
                 Connective Digital Services(CDS)
               </option>
               <option value="Back-End Developer"></option>
@@ -94,13 +94,30 @@
 
     <div class="card-container">
       <div class="card">
-        <div class="card-title"><h1>Contacts </h1></div>
+        <div class="card-title"><h1>Contacts</h1></div>
         <hr />
-        <h1>test</h1>
-        <h1>test</h1>
-        <h1>test</h1>
-        <h1>test</h1>
-        <h1>test</h1>
+        <div class="contact-number">
+          <span>@</span>
+          <p>+383 45 644-948</p>
+          <p>erion.kajtazi@kinandcarta.com</p>
+        </div>
+        <div class="contact-form">
+          <form>
+            <label for="phone" class="phone" id="phone">Phone:</label>
+            <input type="number" class="phone" id="phone" />
+            <label for="email" class="email" id="email">Email:</label>
+            <input type="email" class="email" id="email" />
+            <label for="uname" class="uname" id="uname">Uname:</label>
+            <input type="text" class="uname" id="uname" />
+            <label for="status" class="status" id="status">Status:</label>
+            <select name="Status" class="status" id="status" form="status">
+              <option value="Front-End Developer">Online</option>
+              <option value="Back-End Developer">Busy</option>
+              <option value="iOS Developer">Offline</option>
+              <option value="Java Developer">Salaried</option>
+            </select>
+          </form>
+        </div>
       </div>
 
       <div class="card">

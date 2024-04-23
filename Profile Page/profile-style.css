@@ -47,7 +47,31 @@ body {
     border-radius: 50px;
 }
 
-/* palidhje */
+.profile-form {
+    display: flex;
+}
+
+.fname {
+    width: 300px;
+    height: 20px;
+}
+
+.lname {
+    width: 300px;
+    height: 20px;
+}
+
+.departament {
+    width: 305px;
+    height: 25px;
+}
+
+.position {
+    width: 305px;
+    height: 25px;
+}
+
+/*  */
 
 .card-container {
     width: 1024px;
@@ -67,10 +91,3 @@ body {
     color: #222;
     /* border-bottom: 1px solid grey; */
 }
-
-
-/* .header {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-} */
